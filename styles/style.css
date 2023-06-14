@@ -1,0 +1,108 @@
+:root {
+    --tea-green: rgb(204, 213, 174);
+    --beige: rgb(233, 237, 201);
+    --cornsilk: rgb(254, 250, 224);
+    --papaya-whip: rgb(250, 237, 205);
+    --buff: rgb(212, 163, 115);
+
+    --text-1: 'Alex Brush', cursive;
+    --text-2: 'Cormorant', serif;
+}
+
+body {
+    background-color: var(--papaya-whip);
+}
+
+h1 {
+    font-family: var(--text-1);
+    text-align: center;
+    resize: none;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: var(--text-2);
+    text-align: center;
+}
+
+a {
+    font-family: var(--text-2);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+p {
+    font-family: var(--text-2);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+label {
+    font-family: var(--text-2);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+header {
+    background-color: var(--tea-green);
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+    font-family: var(--text-1);
+    padding: 15px;
+}
+
+
+#hero{
+    width: 100%;
+}
+
+#ckiss{
+    width: 100%;
+}
+
+#arcade{
+    width: 100%;
+}
+#sequim{
+    width: 100%;
+}
+#surprise{
+    width: 100%;
+}
+#corinne{
+    width: 100%;
+}
+#ryker{
+    width: 100%;
+}
+#setup{
+    width: 100%;
+}
+
+.heroText {
+    font-family: var(--text-2);
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+.card {
+    background-color: var(--tea-green);
+    color: #1e2d2fe8;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 15px;
+    min-width: 280px;
+    justify-content: center;
+    font-family: var(--text-2);
+}
+footer {
+    grid-template-columns: 1fr;
+    background-color: var(--buff);
+    display: grid;
+    text-align: center;
+}
+

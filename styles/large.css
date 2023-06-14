@@ -1,0 +1,241 @@
+/** Large.css **/
+@media (min-width: 1130px){
+    
+    .hero img {
+        width: 100%;
+    }
+    #ckiss{
+        width: 45%;
+    }
+    
+    .heroText {
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        font-family: var(--text-2);
+        font-size: 5rem;
+        color: white;
+    }
+    
+    .heroText h1 {
+        font-family: var(--text-2);
+        font-size: 5rem;
+    }
+    
+    .reception {
+        padding: 74px 50px;
+        background-color: var(--papaya-whip);
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .reception h2{
+        font-size: 3rem;
+    }
+    
+    .reception p{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .reception a{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .card {
+        width: 45%;
+        background-color: var(--tea-green);
+        color: #1e2d2fe8;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        padding: 15px;
+        min-width: 280px;
+        display: grid;
+        justify-content: center;
+        font-family: var(--text-2);
+    }
+
+    .venmo{
+        background-color: var(--tea-green);
+        color: #1e2d2fe8;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        padding: 15px;
+        min-width: 280px;
+        display: grid;
+        justify-content: center;
+        font-family: var(--text-2);
+    }
+    
+    img #me {
+        width: auto;
+    }
+    
+    #ckiss{
+        width: 45%;
+    }
+    
+    #arcade{
+        width: 45%;
+    }
+    #sequim{
+        width: 45%;
+    }
+    #surprise{
+        width: 45%;
+    }
+    #corinne{
+        width: 30%;
+    }
+    #ryker{
+        width: 30%;
+    }
+    #setup{
+        width: 45%;
+    }
+    
+    button {
+        display: flex;
+        text-align: center;
+        justify-self: center;
+    }
+    
+    form {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .atcb-text {
+        overflow-wrap: anywhere;
+        display: flex;
+        text-align: center;
+        justify-self: center;
+    }
+    .atcb-button {
+        display: flex;
+        text-align: center;
+        justify-self: center;
+    }
+    
+    
+    footer {
+        width: 100%;
+        background-color: var(--buff);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    
+    html
+    {
+        padding: 0 1em;
+        font-family: Calibri, sans-serif;
+    }
+    
+    body
+    {
+        margin: auto;
+        
+    }
+    
+    @media screen and (max-width: 800px) {
+        footer {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    @media screen and (max-width: 750px) {
+        footer {
+            grid-template-columns: 1fr;
+        }
+        header {
+            flex-direction: column;
+        }
+        header * {
+            margin: 0 auto;
+            text-align: center;
+            padding: 0;
+        }
+        header h1 {
+            border: none;
+            padding: 0;
+        }
+        header ul {
+            margin: 0 auto;
+        }
+        .content {
+            flex-direction: column;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .card {
+            margin: 0 auto;
+        }
+        #homepage_fruit {
+            margin-top: 100px;
+        }
+        .info {
+            margin-top: 100px;
+        }
+        .business_information {
+            grid-row: 3;
+        }
+    }
+    
+    img
+    {
+        max-width: 100%;
+    }
+    
+    .image-left, .image-right
+    {
+        margin: 1em 0;
+    }
+    
+    @media (min-width: 20em)
+    {
+        .image-left, .image-right
+        {
+            display: flex;
+            align-items: center;
+        }
+    
+        .image-left img
+        {
+            margin-right: 1em;
+            float: left; /* fallback */
+        }
+    
+        .image-right img
+        {
+            order: 1;
+            margin-left: 1em;
+            float: right; /* fallback */
+        }
+        
+        /* clearfix for fallback */
+        .image-left::after,
+        .image-right::after
+        {
+            content: "";
+          display: block;
+            clear: both;
+        }
+    }
+    
+    @media (min-width: 30em)
+    {
+        .image-left img, .image-right img
+        {
+            flex-shrink: 0;
+        }
+    }
+    
+    
+
+}
